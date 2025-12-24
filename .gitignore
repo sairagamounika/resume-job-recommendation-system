@@ -1,0 +1,18 @@
+# Ignore data files
+data/raw/*
+data/processed/*
+
+# Allow folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Ignore models & outputs
+models/*
+results/*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
